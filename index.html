@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleverBooks - Revolutionizing Supply Chain Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <a href="#" class="logo"><span class="dynamic-text">Cle</span>ver books</a>
+        <nav class="navigation">
+            <div class="sidebar">
+                <a href="#" onclick="hidesidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                <a href="#">Home</a>
+                <a href="#key-problems">Key Problems Solved</a>
+                <a href="#key-metrics">Key Metrics</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#problem-target">Features</a>
+                <a href="#cta">Get Started</a>
+                <a href="#" id="login">Login</a>
+                <button id="btn">Talk to Us</button>
+            </div>
+            <div class="navigation-items">
+                <a href="#"class="hideOnMobile">Home</a>
+                <a href="#key-problems" class="hideOnMobile">Key Problems Solved</a>
+                <a href="#key-metrics" class="hideOnMobile">Key Metrics</a>
+                <a href="#reviews" class="hideOnMobile">Reviews</a>
+                <a href="#problem-target" class="hideOnMobile">Features</a>
+                <a href="#cta" class="hideOnMobile">Get Started</a>
+                <a href="#" id="login" class="hideOnMobile">Login</a>
+                <button id="btn" class="hideOnMobile">Talk to Us</button>
+                <a href="#" onclick="showsidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="26px" fill="#fff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="home">
+        <div class="content">
+            <h1><big>E</big>very order <br>fulfilled, <span class="dynamic-text">on time.</span></h1>
+            <p>Harness the power of AI to streamline your inventory management process. From demand forecasting to inventory planning and beyond, CleverBooks empowers businesses to optimize stock levels, maximize space utilization, and fulfill every order efficiently.</p>
+            <button><a href="#cta">Get Started With Clever Book</a></button>
+        </div>
+    </section>
+
+    <!-- Key Problems Solved Section -->
+    <section id="key-problems" class="key-problems">
+        <div class="container">
+            <h2 class="section-title">Key Problems Solved</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <h3>Inaccurate Demand Forecasting</h3>
+                    <p>CleverBooks utilizes advanced AI algorithms to analyze historical data and market trends, providing precise demand forecasts to ensure you always have the right amount of stock on hand.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>Inefficient Inventory Planning</h3>
+                    <p>Our software optimizes inventory placement and replenishment strategies, minimizing stockouts and overstock situations, and ultimately reducing costs associated with excess inventory.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>Order Fulfillment Challenges</h3>
+                    <p>CleverBooks streamlines order processing workflows, enabling timely order fulfillment while maintaining high service levels, resulting in satisfied customers and repeat business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="key-metrics" class="key-metrics">
+        <h2 class="section-title">Key Metrics</h2>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <div class="metric">
+                    <h3>Demand Forecast Accuracy</h3>
+                    <p>Increase your demand forecast accuracy by up to 30% with CleverBooks' AI-driven forecasting models.</p>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="metric">
+                    <h3>Inventory Turnover Ratio</h3>
+                    <p>Optimize inventory turnover and reduce carrying costs with CleverBooks' intelligent inventory planning algorithms.</p>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="metric">
+                    <h3>Order Fulfillment Rate</h3>
+                    <p>Achieve a 99% order fulfillment rate and enhance customer satisfaction with CleverBooks' efficient order processing capabilities.</p>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="review-slider">
+                <div class="review">
+                    <h3>"A Game Changer for Our Supply Chain Management!"</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <blockquote>"Clever Books has transformed the way we manage our inventory. The automation features have saved us countless hours, and the accuracy of their demand forecasts is unparalleled. We’ve seen a significant reduction in stockouts and overstocks, which has directly boosted our sales and customer satisfaction."</blockquote>
+                    <p class="reviewer">- John D., Operations Manager at TechGear Inc.</p>
+                </div>
+                <div class="review">
+                    <h3>"The Best Investment We've Made!"</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <blockquote>"Implementing Clever Books was one of the best decisions we've made. The platform's insights and real-time analytics have given us a deeper understanding of our supply chain. We’re now able to make data-driven decisions that have improved our operational efficiency and reduced costs."</blockquote>
+                    <p class="reviewer">- Sarah M., CEO of FashionForward</p>
+                </div>
+                <div class="review">
+                    <h3>"Exceptional Customer Support and Seamless Integration"</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <blockquote>"The customer support team at Clever Books is phenomenal. They helped us seamlessly integrate the platform with our existing systems and were always available to answer any questions we had. CleverBooks has made our inventory management process so much easier and more effective."</blockquote>
+                    <p class="reviewer">- Carlos R., Supply Chain Director at FreshMart</p>
+                </div>
+                <div class="review">
+                    <h3>"Increased Our Sales and Customer Retention"</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <blockquote>"Since we started using Clever Books, our sales have increased by 20%. The platform ensures that our products are always in stock and delivered on time, which has significantly improved our customer retention rates. We couldn’t be happier with the results!"</blockquote>
+                    <p class="reviewer">- Emily L., Head of E-commerce at HomeEssentials</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Target Section -->
+    <section id="problem-target" class="problem-target">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            <div class="features-tabs">
+                <button class="tablink" onclick="openFeature(event, 'demand-forecasting')">Demand Forecasting</button>
+                <button class="tablink" onclick="openFeature(event, 'inventory-planning')">Inventory Planning</button>
+                <button class="tablink" onclick="openFeature(event, 'order-management')">Order Management</button>
+                <button class="tablink" onclick="openFeature(event, 'space-optimization')">Space Optimization</button>
+            </div>
+            <div id="demand-forecasting" class="tabcontent">
+                <h3>Demand Forecasting</h3>
+                <p>Advanced AI algorithms analyze historical data and market trends to provide precise demand forecasts.</p>
+            </div>
+            <div id="inventory-planning" class="tabcontent">
+                <h3>Inventory Planning</h3>
+                <p>Optimize inventory placement and replenishment strategies to minimize stockouts and overstock situations.</p>
+            </div>
+            <div id="order-management" class="tabcontent">
+                <h3>Order Management</h3>
+                <p>Streamline order processing workflows to enable timely order fulfillment while maintaining high service levels.</p>
+            </div>
+            <div id="space-optimization" class="tabcontent">
+                <h3>Space Optimization</h3>
+                <p>Maximize space utilization to ensure efficient storage and handling of inventory.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta">
+        <div class="cta-container">
+            <h2 class="section-title">Unlock the Power of AI for Your Supply Chain</h2>
+            <p>Ready to revolutionize your supply chain management? Sign up for a demo today and experience the difference Clever Books can make.</p>
+            <button class="cta-button">Get Started Clever Books</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footerpart1">
+            <h1><span class="dynamic-text">Cle</span>ver Books</h1>
+            <p class="para">Clever Books is dedicated to transforming supply chain management with cutting-edge technology and deep industry expertise. Our mission is to make stockouts a thing of the past and help businesses thrive by optimizing inventory levels, automating tasks, and providing actionable insights.</p>
+            <p id="copyright">© 2024 Clever Books Technologies Inc. All rights reserved.</p>
+        </div>
+        <div class="footerpart2">
+            <h1>Explore</h1>
+            <div class="link">
+                <a href="#">Home</a>
+                <a href="#key-problems">Key Problems Solved</a>
+                <a href="#key-metrics">Key Metrics</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#problem-target">Features</a>
+                <a href="#cta">Get Started</a>
+            </div>
+        </div>
+        <div class="footerpart3">
+            <h1>Contact Clever Book</h1>
+            <h4>Registered Office</h4>
+            <p id="address">Clever Books Technologies Inc. | 123 Innovation Drive, Suite 456, Tech City, TX 78910</p>
+            <!-- Add font awesome icons -->
+            <a href="#" class="icons fa fa-facebook"></a>
+            <a href="#" class="icons fa fa-twitter"></a>
+            <a href="#" class="icons fa fa-instagram"></a>
+            <a href="#" class="icons fa fa-linkedin"></a>
+            <div class="back-btn">
+                <button><a href="#">&#8593</a></button>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
