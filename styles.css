@@ -688,7 +688,7 @@ section {
         padding: 15px 20px;
         justify-content: space-between; /* Adjusted */
         align-items: center; /* Adjusted */
-        width: auto;
+       max-width: auto;
     }
 
     header .logo {
